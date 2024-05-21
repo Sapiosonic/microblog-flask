@@ -26,7 +26,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-5. Set the Flash environment variable
+5. Set the Flask environment variable
 
 ```
 set FLASK_APP=microblog.py
