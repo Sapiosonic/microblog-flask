@@ -38,3 +38,9 @@ set FLASK_APP=microblog.py
 flask run
 ```
 
+7. Run Flask in a custom port
+
+```
+flask run --port 5001
+```
+
