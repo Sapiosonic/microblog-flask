@@ -4,5 +4,6 @@ from app import app
 @app.route('/index')
 
 def index():
-	return "Hello, World!"
-	
+	user = {'username': 'Rada'}
+	return render_template('index.html', title='Home', user=user) # type: ignore
+
